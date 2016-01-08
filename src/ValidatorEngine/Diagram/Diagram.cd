@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ValidatorEngine.Core.BusinessValidation.DefaultValidations.Required&lt;T&gt;" Collapsed="true">
+    <Position X="7.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAgQAAAAAAAAAAAIAAAAAAAAAAAAAIAAAAAAAAAAg=</HashCode>
+      <FileName>Core\BusinessValidation\DefaultValidations\Required.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ValidatorEngine.Core.BusinessValidation.DefaultValidations.RequiredInt" Collapsed="true">
+    <Position X="4.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Core\BusinessValidation\DefaultValidations\RequiredInt.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ValidatorEngine.Core.BusinessValidation.DefaultValidations.RequiredString" Collapsed="true">
+    <Position X="6.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Core\BusinessValidation\DefaultValidations\RequiredString.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ValidatorEngine.Examples.RequiredNotEmptyOrDefault&lt;T&gt;" Collapsed="true">
+    <Position X="9" Y="5.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Core\BusinessValidation\DefaultValidations\RequiredNotEmptyOrDefault.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ValidatorEngine.Core.BusinessValidation.Validation">
+    <Position X="7" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAQAAAAAAAAAAAAAAAAAAAQIQAAAAAg=</HashCode>
+      <FileName>Core\BusinessValidation\Validation.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ValidatorEngine.Core.BusinessValidation.ValidationList">
+    <Position X="6.25" Y="12.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAIAQAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core\BusinessValidation\ValidationList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ValidatorEngine.Core.BusinessValidation.ValidationResult" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAEgAAAAAAAAAAAAIAAAAAAIAAAAiA=</HashCode>
+      <FileName>Core\BusinessValidation\ValidationResult.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ValidatorEngine.Core.BusinessValidation.ValidationResultList" Collapsed="true">
+    <Position X="14.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAABAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Core\BusinessValidation\ValidationResultList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ValidatorEngine.Core.BusinessValidation.Validator">
+    <Position X="5.75" Y="9" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAICAAABBAAAAAAAAAAAAAABAAAAAAAAQAAA=</HashCode>
+      <FileName>Core\BusinessValidation\Validator.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ValidationList" />
+    </ShowAsAssociation>
+  </Class>
+  <Interface Name="ValidatorEngine.Core.BusinessValidation.IValidation" Collapsed="true">
+    <Position X="12.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAQAAAAAAAAAAAAAAAAAAAQIQAAAAAA=</HashCode>
+      <FileName>Core\BusinessValidation\IValidation.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="ValidatorEngine.Core.BusinessValidation.Status" Collapsed="true">
+    <Position X="12.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core\BusinessValidation\Status.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

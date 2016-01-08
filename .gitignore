@@ -1,0 +1,5 @@
+/src/ValidatorEngine/bin
+/src/ValidatorEngine/obj
+/src/ValidatorTest/obj/
+/src/ValidatorTest/bin/
+*.user
