@@ -6,6 +6,11 @@ namespace ValidatorEngine.Core.BusinessValidation
 	{
 		public IList<Validation> Validations { get; set; }
 
+        public ValidationList()
+        {
+            Validations = new List<Validation>();
+        }
+
 		public void Add(Validation validation)
 		{
 			Validations.Add(validation);

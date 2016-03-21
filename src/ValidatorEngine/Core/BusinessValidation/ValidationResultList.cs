@@ -5,6 +5,10 @@ namespace ValidatorEngine.Core.BusinessValidation
 	public class ValidationResultList
 	{
 		public IList<ValidationResult> ValidationResults { get; set; }
+        public ValidationResultList()
+        {
+            ValidationResults = new List<ValidationResult>();
+        }
 
 		public void Add(ValidationResult validationResult)
 		{
